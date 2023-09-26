@@ -4,3 +4,14 @@ box {
   padding: 50px;
   margin: 20px;
 }
+
+container {
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  flex-flow: space-between;
+}
+
+item-card {
+
+}
