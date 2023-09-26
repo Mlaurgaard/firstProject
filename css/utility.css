@@ -1,4 +1,6 @@
-.test {
-  background-color: hotpink;
-  font-size: 30px;
+box {
+  width: 300px;
+  border: 15px teal
+  padding: 50px;
+  margin: 20px;
 }
