@@ -1,16 +1,17 @@
-box {
+box-model {
   width: 300px;
   border: 15px teal
   padding: 50px;
   margin: 20px;
 }
 
-container {
+flex-container {
   display: flex;
+  gap: 20px;
   flex-direction: row;
   flex-flow: space-between;
 }
 
-item-card {
+flex-item {
 
 }
