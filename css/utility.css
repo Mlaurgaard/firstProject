@@ -18,12 +18,19 @@
 }
 /* Button */
 .nav-button {
-  background-color: darkgreen;
   border: none;
   color: honeydew;
   padding: 2rem;
   align-self: center;
   margin-left: 1rem;
+}
+/* Hover */
+.buttonTr {
+  transition-duration: 0.4ms;
+}
+.button:hover {
+  background-color: blue;
+  color: white;
 }
 .add-flex {
   display: flex;
