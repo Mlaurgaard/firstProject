@@ -4,25 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      div {
-        background-color: teal
-        width: 500px;
-        border: 30px
-        padding: 60px
-        margin: 40px
-      }
-    </style>
+    <link rel="stylesheet" href="./css/utility.css" />
   </head>
   <body>
-    <h1>Boxes</h1>
+    <!-- Navbar Horizontal -->
+    <nav class="nav-container add-flex">
+      <!-- Logo -->
+      <div class="">
+        <img
+          src="https://th.bing.com/th/id/OIP.fwZugI6UZzpiBNmYZmEJygHaE7?pid=ImgDet&rs=1"
+          alt=""
+          height="75px"
+          width="100px"
+        />
+      </div>
+      <!-- Buttons -->
+      <div class="add-flex spaceBt">
+        <div class="nav-button">ost</div>
+        <div class="nav-button">ost</div>
+        <div class="nav-button">ost</div>
+      </div>
+      <!-- Contact page -->
+      <div class="nav-button">Contact us</div>
+    </nav>
+    <!-- Header -->
+    <h1 class="head-size">Boxes</h1>
     <p>Make 5 boxes</p>
-    <div class="-flex-container">
-      <div class="flex-item">1</div>
-      <div class="flex item">2</div>
-      <div class="flex-item">3</div>
-      <div class="flex-item">4</div>
-      <div class="flex-item">5</div>
-    </div>
+    <!-- 5 cards -->
+    <section>
+      <div class="flex-container add-flex">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+      </div>
+
+      <div class="flex-container add-flex">
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+      </div>
+    </section>
+
+    <script src="./javascript/script.js"></script>
   </body>
 </html>

@@ -1,9 +1,67 @@
-flex-container {
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-  flex-flow: space-between;
+/* Reset page */
+* {
+  background-color: hotpink;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 100%;
 }
 
-flex-item {
+/* Logo */
+.logo {
+  border: none;
+  height: 50px;
+  width: 50px;
+  background-color: aliceblue;
+  padding: 2rem;
+  align-content: start;
+}
+/* Button */
+.nav-button {
+  background-color: darkgreen;
+  border: none;
+  color: honeydew;
+  padding: 2rem;
+  align-self: center;
+  margin-left: 1rem;
+}
+.add-flex {
+  display: flex;
+}
+/*Flex*/
+.flex-container {
+  color: lightblue;
+  background-color: gray;
+  /* gap: 20px; */
+  /* flex-direction: row; */
+  /* flex-flow: space-between; */
+}
+
+.flex-item {
+  padding: 2rem;
+  border: 2px black solid;
+  margin: 0.7rem;
+  background-color: chartreuse;
+}
+
+.nav-container {
+  justify-content: space-between;
+  border: black solid;
+  height: 5rem;
+  width: none;
+  background-color: aqua;
+}
+
+/* Placement */
+.center {
+  align-self: center;
+}
+/* Sizes */
+.head-size {
+  font-size: 4rem;
+}
+
+.spaceBt {
+  align-self: space-between;
+  background-color: aqua;
 }
