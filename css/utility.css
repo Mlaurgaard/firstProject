@@ -121,6 +121,6 @@ a {
   margin: 1rem;
 }
 
-.bgc-prim {
-  background-color: rgb(192, 90, 31);
+.position-fixed {
+  position: fixed;
 }
