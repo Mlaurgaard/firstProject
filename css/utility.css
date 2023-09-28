@@ -1,10 +1,14 @@
 /* Reset page */
 * {
-  background-color: hotpink;
+  background-color: rgb(184, 252, 248);
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-size: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Logo */
@@ -19,18 +23,22 @@
 /* Button */
 .nav-button {
   border: none;
-  color: honeydew;
-  padding: 2rem;
+  font-size: 1.2rem;
+  color: rgb(192, 90, 31);
+  background-color: rgb(192, 90, 31);
+  /* width: 8rem;
+  padding: 1.6rem; */
   align-self: center;
-  margin-left: 1rem;
+  justify-content: center;
 }
 /* Hover */
 .buttonTr {
-  transition-duration: 0.4ms;
+  transition-duration: 0.2s;
 }
 .button:hover {
-  background-color: blue;
+  background-color: black;
   color: white;
+  box-shadow: 1rem;
 }
 .add-flex {
   display: flex;
@@ -38,7 +46,7 @@
 /*Flex*/
 .flex-container {
   color: lightblue;
-  background-color: gray;
+  background-color: lightblue;
   /* gap: 20px; */
   /* flex-direction: row; */
   /* flex-flow: space-between; */
@@ -48,15 +56,17 @@
   padding: 2rem;
   border: 2px black solid;
   margin: 0.7rem;
-  background-color: chartreuse;
+  color: black;
+  background-color: lightgrey;
 }
 
 .nav-container {
+  position: sticky;
   justify-content: space-between;
   border: black solid;
   height: 5rem;
   width: none;
-  background-color: aqua;
+  background-color: rgb(192, 90, 31);
 }
 
 /* Placement */
@@ -69,6 +79,22 @@
 }
 
 .spaceBt {
-  align-self: space-between;
-  background-color: aqua;
+  align-self: space-evenly;
+  background-color: rgb(192, 90, 31);
+}
+
+.child {
+  display: inline-flex;
+  width: 8rem;
+  padding: 1.6rem;
+  background-color: rgb(192, 90, 31);
+  color: black;
+}
+
+.childTr {
+  transition-duration: 0.2s;
+}
+
+.align-self {
+  align-self: center;
 }
