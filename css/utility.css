@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-size: 100%;
 }
-
+/* No text */
 a {
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ a {
   align-self: center;
   justify-content: center;
 }
-/* Hover */
+/* Button Hover */
 .buttonTr {
   transition-duration: 0.2s;
 }
@@ -39,9 +39,6 @@ a {
   background-color: black;
   color: white;
   box-shadow: 1rem;
-}
-.add-flex {
-  display: flex;
 }
 /*Flex*/
 .flex-container {
@@ -52,6 +49,10 @@ a {
   /* flex-flow: space-between; */
 }
 
+.add-flex {
+  display: flex;
+}
+
 .flex-item {
   padding: 2rem;
   border: 2px black solid;
@@ -60,15 +61,15 @@ a {
   background-color: lightgrey;
 }
 
+/* Navbar */
 .nav-container {
   position: sticky;
   justify-content: space-between;
   border-bottom: black solid 0.1rem;
   height: 5rem;
-  width: none;
+  width: 100%;
   background-color: rgb(192, 90, 31);
 }
-
 /* Placement */
 .center {
   align-self: center;
@@ -97,4 +98,20 @@ a {
 
 .align-self {
   align-self: center;
+}
+
+/* Footer */
+.footer-container {
+  position: absolute;
+  border-top: black solid 0.1rem;
+  height: 4rem;
+  background-color: rgb(192, 90, 31);
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.bg-prim {
+  background-color: rgb(192, 90, 31);
 }
