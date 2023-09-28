@@ -121,6 +121,10 @@ a {
   margin: 1rem;
 }
 
-.position-fixed {
+.pos-fixed {
   position: fixed;
+}
+
+.pos-sticky {
+  position: sticky;
 }
