@@ -63,7 +63,7 @@ a {
 .nav-container {
   position: sticky;
   justify-content: space-between;
-  border: black solid;
+  border-bottom: black solid 0.1rem;
   height: 5rem;
   width: none;
   background-color: rgb(192, 90, 31);
@@ -86,7 +86,7 @@ a {
 .child {
   display: inline-flex;
   width: 8rem;
-  padding: 1.6rem;
+  padding: 1.8rem;
   background-color: rgb(192, 90, 31);
   color: black;
 }
