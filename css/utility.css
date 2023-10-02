@@ -33,7 +33,7 @@ a {
 }
 /* Button Hover */
 .buttonTr {
-  transition-duration: 0.2s;
+  /* transition-duration: 0.2s; */
 }
 .button:hover {
   background-color: black;
@@ -63,7 +63,7 @@ a {
 
 /* Navbar */
 .nav-container {
-  position: sticky;
+  position: fixed;
   justify-content: space-between;
   border-bottom: black solid 0.1rem;
   height: 5rem;
