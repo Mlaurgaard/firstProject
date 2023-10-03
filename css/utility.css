@@ -23,10 +23,7 @@ a {
 .nav-button {
   border: none;
   font-size: 1.2rem;
-  color: rgb(192, 90, 31);
   background-color: #414558;
-  /* width: 8rem;
-  padding: 1.6rem; */
   align-self: center;
   justify-content: center;
 }
@@ -164,6 +161,10 @@ a {
   padding: 4rem;
 }
 
+.pt-5r {
+  padding-top: 5rem;
+}
+
 /* Borders */
 .border-solid {
   border-style: solid;
@@ -236,10 +237,24 @@ a {
 }
 
 /* Position */
+.pos-static {
+  position: static;
+}
+
+.pos-relative {
+  position: relative;
+}
+
 .pos-fixed {
   position: fixed;
+}
+
+.pos-absolute {
+  position: absolute;
 }
 
 .pos-sticky {
   position: sticky;
 }
+
+/*  */
