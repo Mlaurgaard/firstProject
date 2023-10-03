@@ -28,9 +28,6 @@ a {
   justify-content: center;
 }
 /* Button Hover */
-.buttonTr {
-  /* transition-duration: 0.2s; */
-}
 .button:hover {
   background-color: black;
   color: white;
@@ -38,11 +35,8 @@ a {
 }
 /*Flex*/
 .flex-container {
-  color: lightblue;
+  /* color: lightblue; */
   background-color: #414558;
-  /* gap: 20px; */
-  /* flex-direction: row; */
-  /* flex-flow: space-between; */
 }
 
 .add-flex {
@@ -50,11 +44,15 @@ a {
 }
 
 .flex-item {
-  padding: 2rem;
+  padding: 3rem;
   border: 2px black solid;
-  margin: 0.7rem;
+  margin: 0.5rem;
   color: black;
   background-color: lightgrey;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 /* Navbar */
@@ -66,10 +64,7 @@ a {
   width: 100%;
   background-color: #414558;
 }
-/* Placement */
-.center {
-  align-self: center;
-}
+
 /* Sizes */
 .head-size {
   font-size: 4rem;
@@ -96,11 +91,6 @@ a {
   align-self: center;
 }
 
-.pos-center {
-  position: relative;
-  justify-content: center;
-}
-
 /* Footer */
 .footer-container {
   position: absolute;
@@ -109,6 +99,7 @@ a {
   background-color: #414558;
 }
 
+/* ----------------------------------------------- */
 /* UPDATE / FRESH */
 
 /* Margin */
@@ -236,6 +227,8 @@ a {
   width: 4rem;
 }
 
+/* ------------------------------------------------ */
+
 /* Position */
 .pos-static {
   position: static;
@@ -257,4 +250,96 @@ a {
   position: sticky;
 }
 
-/*  */
+.pos-center {
+  position: center;
+}
+
+/* Justify Content */
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-l {
+  justify-content: left;
+}
+
+.jc-r {
+  justify-content: right;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-se {
+  justify-content: space-evenly;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-fs {
+  justify-content: flex-start;
+}
+
+.jc-fe {
+  justify-content: flex-end;
+}
+
+/* Algin Items */
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-start {
+  align-items: start;
+}
+
+.ai-end {
+  align-items: end;
+}
+
+/* Align Content */
+
+.ac-center {
+  align-content: center;
+}
+
+.ac-start {
+  align-content: start;
+}
+
+.ac-end {
+  align-content: end;
+}
+
+.ac-sa {
+  align-content: space-around;
+}
+
+.ac-sb {
+  align-content: space-between;
+}
+
+.ac-se {
+  align-content: space-evenly;
+}
+
+.ac-fs {
+  align-content: flex-start;
+}
+
+.ac-fe {
+  align-content: flex-end;
+}
