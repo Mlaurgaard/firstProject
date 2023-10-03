@@ -19,6 +19,7 @@ a {
   padding: 2rem;
   align-content: start;
 }
+
 /* Button */
 .nav-button {
   border: none;
@@ -127,6 +128,10 @@ a {
   margin: 4rem;
 }
 
+.mb-logo {
+  margin-bottom: -2px;
+}
+
 /* Padding */
 .p-100 {
   padding: 100%;
@@ -156,6 +161,10 @@ a {
   padding-top: 5rem;
 }
 
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 /* Borders */
 .border-solid {
   border-style: solid;
@@ -175,6 +184,10 @@ a {
 
 .border-none {
   border-style: none;
+}
+
+.border-b {
+  border-bottom: 1px solid black;
 }
 
 /* Height */
