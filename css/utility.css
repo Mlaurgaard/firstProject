@@ -356,3 +356,21 @@ a {
 .ac-fe {
   align-content: flex-end;
 }
+
+/* Align Self */
+
+.as-center {
+  align-self: center;
+}
+
+.as-fs {
+  align-self: flex-start;
+}
+
+.as-fe {
+  align-self: flex-end;
+}
+
+.as-auto {
+  align-self: auto;
+}
