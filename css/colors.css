@@ -1,4 +1,30 @@
 /* Main colors */
+.prim-clr {
+  color: #272935;
+}
+
+.scnd-clr {
+  color: #414558;
+}
+
+.accent-clr {
+  color: #a991f7;
+}
+/* Background Colors */
 .bgc-prim {
-  background-color: rgb(192, 90, 31);
+  background-color: #272935;
+}
+
+.bgc-scnd {
+  background-color: #414558;
+}
+
+/* Text Colors */
+
+.txt-prim {
+  color: white;
+}
+
+.txt-scnd {
+  color: black;
 }
