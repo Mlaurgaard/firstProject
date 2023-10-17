@@ -37,3 +37,58 @@ window.onclick = function(event){
         modal.style.display = "none";
     }
 }
+
+
+
+const phonelist = [
+    {
+        name: "Bob",
+        description: "Is Bob"
+    },
+    {
+        name: "Jane",
+        description: "How to pretend being a Bob"
+    },
+    {
+        name: "Frank",
+        description: "Was also a bob"
+    },
+    {
+        name: "Jane",
+        description: "Article numero two"
+    },
+    {
+        name: "Jane",
+        description: "yes"
+    },
+]
+
+let person = phonelist;
+
+let myJaneBook = [];
+
+function getMyJaneArticles() {
+    /* For Loop - 3 Statements
+      - Statement 1: sets a variable before the loop starts
+      - Statement 2: defines the condition for the loop to run
+      - Statement 3:  increases a value (index++) each time the code block in the loop has been executed
+    */
+    for(let index = 0; index < phonelist.length; index++){
+        if(phonelist[index].name == 'Jane'){
+            console.log("Halloo!!!", phonelist[index]);
+            myJaneBook.push(phonelist[index])
+        }
+    }
+    console.log("Janes Articles", myJaneBook);
+}
+
+getMyJaneArticles();
+
+
+// console.log("Find Jane!", person)
+
+function setTheme(){
+    // Setting a Key  and give it a value
+    localStorage.setItem("themeOfPage", "dark");
+}
+// setTheme();

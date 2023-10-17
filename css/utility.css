@@ -82,6 +82,7 @@ a {
   padding: 1.8rem;
   background-color: #414558;
   color: lightgray;
+  cursor: pointer;
 }
 
 .childTr {
@@ -119,7 +120,7 @@ a {
   margin: auto;
   padding: auto;
   border: 1px solid black;
-  width: 80%;
+  width: 50rem;
 }
 
 /* Close Button */
@@ -167,6 +168,44 @@ a {
 
 .mb-logo {
   margin-bottom: -2px;
+}
+/* Margin Left */
+.ml-025 {
+  margin-left: 0.25rem;
+}
+
+.ml-1r {
+  margin-left: 1rem;
+}
+
+.ml-4r {
+  margin-left: 4rem;
+}
+
+.ml-25r {
+  margin-left: 15.5rem;
+}
+/* Margin Right */
+.mr-1r {
+  margin-right: 1rem;
+}
+.mr-4r {
+  margin-right: 4rem;
+}
+.mr-025 {
+  margin-right: 0.25rem;
+}
+/* Margin Top */
+.mt-025 {
+  margin-top: 0.25rem;
+}
+.mt-4r {
+  margin-top: 4rem;
+}
+
+/* Margin Bottom */
+.mb-4r {
+  margin-bottom: 4rem;
 }
 
 /* Padding */
