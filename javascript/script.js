@@ -38,6 +38,24 @@ window.onclick = function(event){
     }
 }
 
+// Send/Cancle button
+
+let myAlert = document.getElementById("myAlert")
+
+myAlert.onclick = function(){
+    alert ("Thank you! We will call you back shortly!")
+}
+
+window.onclick = function(event){
+    if (event.target == myAlert){
+        myAlert.style.display = "";
+    }
+}
+
+
+
+
+
 
 
 const phonelist = [

@@ -19,6 +19,9 @@
   background-color: #414558;
 }
 
+.bgc-lg {
+  background-color: lightgray;
+}
 /* Text Colors */
 
 .txt-prim {

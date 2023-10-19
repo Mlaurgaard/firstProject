@@ -45,7 +45,20 @@ a {
 }
 
 .flex-item {
-  padding: 3rem;
+  /* flex-direction: column;
+  gap: 0.5rem; */
+  padding: 2.5rem;
+  border: 2px black solid;
+  margin: 0.5rem;
+  color: black;
+  background-color: lightgrey;
+}
+
+.fitm-contact {
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2.5rem;
+  width: 30rem;
   border: 2px black solid;
   margin: 0.5rem;
   color: black;
@@ -71,11 +84,12 @@ a {
   font-size: 4rem;
 }
 
-.spaceBt {
-  align-self: space-evenly;
-  background-color: rgb(192, 90, 31);
-}
+/* .spaceBt { */
+/* align-self: space-evenly; */
+/* background-color: rgb(192, 90, 31); */
+/* } */
 
+/* 2nd Buttons */
 .child {
   display: inline-flex;
   width: 8rem;
@@ -89,8 +103,24 @@ a {
   transition-duration: 0.2s;
 }
 
-.align-self {
-  align-self: center;
+.SC-button,
+.SC-button:focus,
+.SC-button:active {
+  display: inline-flex;
+  width: 4rem;
+  height: 1.5rem;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+  transform: translate(2px);
+}
+
+.SC-button:hover {
+  color: white;
+  background-color: gray;
 }
 
 /* Footer */
@@ -121,6 +151,7 @@ a {
   padding: auto;
   border: 1px solid black;
   width: 50rem;
+  height: 25rem;
 }
 
 /* Close Button */
@@ -169,6 +200,7 @@ a {
 .mb-logo {
   margin-bottom: -2px;
 }
+
 /* Margin Left */
 .ml-025 {
   margin-left: 0.25rem;
@@ -178,6 +210,10 @@ a {
   margin-left: 1rem;
 }
 
+.ml-2r {
+  margin-left: 2rem;
+}
+
 .ml-4r {
   margin-left: 4rem;
 }
@@ -185,25 +221,42 @@ a {
 .ml-25r {
   margin-left: 15.5rem;
 }
+
 /* Margin Right */
 .mr-1r {
   margin-right: 1rem;
 }
+
+.mr-2r {
+  margin-right: 2rem;
+}
+
 .mr-4r {
   margin-right: 4rem;
 }
+
 .mr-025 {
   margin-right: 0.25rem;
 }
+
 /* Margin Top */
 .mt-025 {
   margin-top: 0.25rem;
 }
+
+.mt-r {
+  margin-top: 2rem;
+}
+
 .mt-4r {
   margin-top: 4rem;
 }
 
 /* Margin Bottom */
+.mb-2.5 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-4r {
   margin-bottom: 4rem;
 }
@@ -233,12 +286,18 @@ a {
   padding: 4rem;
 }
 
+/* Padding Top */
 .pt-5r {
   padding-top: 5rem;
 }
 
+/* Padding Bottom */
 .pb-0 {
   padding-bottom: 0px;
+}
+
+.pb-1.5r {
+  padding-bottom: 1.5rem;
 }
 
 /* Borders */
@@ -449,4 +508,16 @@ a {
 
 .as-auto {
   align-self: auto;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.fl-r {
+  float: right;
+}
+
+.fl-l {
+  float: left;
 }
