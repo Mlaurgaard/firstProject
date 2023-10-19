@@ -73,8 +73,8 @@ function resetAllInputs(){
     document.getElementById('phoneID').value = '';
 }
 
-function alertMe(boxNUmber){
-    alert(boxNUmber)
+function alertMe(boxNumber){
+    alert(boxNumber)
 }
 
 // Arrow Function
