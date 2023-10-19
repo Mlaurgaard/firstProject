@@ -19,6 +19,7 @@ function Contact() {
 /*Get Modal*/
 let modal = document.getElementById("myModal");
 
+
 /* Modal Button */
 let button = document.getElementById("myBtn")
 
@@ -26,10 +27,12 @@ let span = document.getElementsByClassName("close")[0];
 
 button.onclick = function(){
     modal.style.display = "block";
+    resetAllInputs();
 }
 
 span.onclick = function(){
     modal.style.display = "none";
+    resetAllInputs();
 }
 
 window.onclick = function(event){
@@ -42,19 +45,43 @@ window.onclick = function(event){
 
 let myAlert = document.getElementById("myAlert")
 
-myAlert.onclick = function(){
-    alert ("Thank you! We will call you back shortly!")
+let typo = document.getElementById("typo")
+
+let myClose = document.getElementById("myClose")[0]
+
+
+// myAlert.onclick = function(){
+//     alert ("Thank you! We will call you back shortly!")
+// }
+
+// myClose.onclick = function(){
+    
+// }
+
+let loggedIn = false;
+console.log("Am i Logged in???", loggedIn);
+
+function logMeInPls(){
+    loggedIn = true;
+    console.log("Am i Logged in???", loggedIn);
 }
 
-window.onclick = function(event){
-    if (event.target == myAlert){
-        myAlert.style.display = "";
-    }
+// Traditional Function
+function resetAllInputs(){
+    document.getElementById('nameID').value = '';
+    document.getElementById('emailID').value = '';
+    document.getElementById('phoneID').value = '';
 }
 
+function alertMe(boxNUmber){
+    alert(boxNUmber)
+}
 
-
-
+// Arrow Function
+ submitMessageOnContactForm = (superSecretMessage) => {
+    // alert ("Thank you! We will call you back shortly!")
+    alert (superSecretMessage)
+}
 
 
 
@@ -81,16 +108,19 @@ const phonelist = [
     },
 ]
 
+
+
 let person = phonelist;
 
 let myJaneBook = [];
 
+/* For Loop - 3 Statements
+  - Statement 1: Define Where you wish to start in the loop
+  - Statement 2: Define how long the loop should run
+  - Statement 3: Define Behaviour of the loop.
+    - Count upward ++   or downward --
+*/
 function getMyJaneArticles() {
-    /* For Loop - 3 Statements
-      - Statement 1: sets a variable before the loop starts
-      - Statement 2: defines the condition for the loop to run
-      - Statement 3:  increases a value (index++) each time the code block in the loop has been executed
-    */
     for(let index = 0; index < phonelist.length; index++){
         if(phonelist[index].name == 'Jane'){
             console.log("Halloo!!!", phonelist[index]);
@@ -99,6 +129,9 @@ function getMyJaneArticles() {
     }
     console.log("Janes Articles", myJaneBook);
 }
+/* forEach Loop
+
+*/
 
 getMyJaneArticles();
 

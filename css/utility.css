@@ -54,15 +54,23 @@ a {
   background-color: lightgrey;
 }
 
-.fitm-contact {
+.fItm-contact {
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.3rem;
   padding: 2.5rem;
   width: 30rem;
   border: 2px black solid;
   margin: 0.5rem;
   color: black;
   background-color: lightgrey;
+}
+
+.fDir-col {
+  flex-direction: column;
+}
+
+.gap-03 {
+  gap: 0.3rem;
 }
 
 .flex-wrap {
@@ -116,6 +124,7 @@ a {
   border: 2px solid black;
   border-radius: 4px;
   transform: translate(2px);
+  font-weight: lighter;
 }
 
 .SC-button:hover {
@@ -151,7 +160,7 @@ a {
   padding: auto;
   border: 1px solid black;
   width: 50rem;
-  height: 25rem;
+  height: 24rem;
 }
 
 /* Close Button */
@@ -164,7 +173,7 @@ a {
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: gray;
   text-decoration: none;
   cursor: pointer;
 }
@@ -244,7 +253,11 @@ a {
   margin-top: 0.25rem;
 }
 
-.mt-r {
+.mt-1r {
+  margin-top: 1rem;
+}
+
+.mt-2r {
   margin-top: 2rem;
 }
 

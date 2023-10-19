@@ -22,6 +22,10 @@
 .bgc-lg {
   background-color: lightgray;
 }
+
+.bgc-wt {
+  background-color: white;
+}
 /* Text Colors */
 
 .txt-prim {

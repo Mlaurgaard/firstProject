@@ -72,14 +72,14 @@
       <!-- About -->
       <div class="add-flex">
         <div class="nav-button button buttonTr">
-          <a href="about.html" class="button child childTr"> About</a>
+          <a href="about.html" class="button child childTr jc-center"> About</a>
         </div>
         <!-- Temp -->
         <div class="nav-button button buttonTr">
-          <a href="temp.html" class="button child childTr"> Temp</a>
+          <a href="temp.html" class="button child childTr jc-center"> Temp</a>
         </div>
         <!-- other -->
-        <div class="nav-button button buttonTr">
+        <div class="nav-button button buttonTr jc-center">
           <a
             href="https://www.Reddit.com/"
             target="_blank"
@@ -89,7 +89,9 @@
         </div>
       </div>
       <!-- Contact page -->
-      <div id="myBtn" class="nav-button button child childTr">Contact</div>
+      <div id="myBtn" class="nav-button button child childTr jc-center">
+        Contact
+      </div>
     </nav>
     <!-- Modal -->
     <div id="myModal" class="modal">
@@ -102,29 +104,62 @@
         </div>
         <!-- Contact Card -->
         <div class="add-flex jc-center mb-2.5r">
-          <!-- Txt fields -->
-          <div class="add-flex fitm-contact ml-4r mr-4r">
+          <div class="add-flex fItm-contact ml-4r mr-4r">
             <h1 class="bgc-lg mb-2r">
               Send us your contact info and we will contact you
             </h1>
-            <!-- Name -->
-            <label for="fname" class="bgc-lg mr-1r">Full Name:</label>
-            <input type="text" class="bgc-lg" />
-            <!-- E-mail -->
-            <label for="E-mail" class="bgc-lg mr-1r">E-mail:</label>
-            <input type="text" class="bgc-lg" />
-            <!-- Number -->
-            <label for="Number" class="bgc-lg mr-1r">Number:</label>
-            <input type="text" class="bgc-lg" />
+            <!-- Txt fields -->
+            <!-- Form -->
+            <form class="add-flex fDir-col gap-03 mt-1r bgc-lg" action="">
+              <!-- Name -->
+              <label for="fname" class="bgc-lg"></label>
+              <input
+                id="nameID"
+                type="text"
+                placeholder="Name"
+                value=""
+                class="bgc-wt"
+              />
+              <!-- E-mail -->
+              <label for="E-mail" class="bgc-lg mr-1r"></label>
+              <input
+                id="emailID"
+                type="text"
+                value="none"
+                placeholder="E-mail"
+                class="bgc-wt"
+              />
+              <!-- Number -->
+              <label for="Number" class="bgc-lg"></label>
+              <input
+                id="phoneID"
+                type="text"
+                placeholder="Number"
+                class="bgc-wt"
+              />
+            </form>
+            <!-- Send/Cancle -->
+            <div class="bgc-lg mt-1r">
+              <div
+                id="myAlert"
+                class="SC-button fl-r"
+                onclick="submitMessageOnContactForm('Hello My name is Bob')"
+              >
+                Send
+              </div>
+              <div
+                id="myClose"
+                class="SC-button fl-l"
+                onclick="resetAllInputs()"
+              >
+                Clear
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- Send/Cancle -->
-        <div class="">
-          <div id="myAlert" class="SC-button fl-r mr-2r">Send</div>
-          <div class="SC-button fl-l ml-2r">Cancle</div>
         </div>
       </div>
     </div>
+
     <!-- Header -->
     <h1 class="head-size txt-prim pt-5r">Main</h1>
     <p class="txt-prim">Make 5 boxes</p>
@@ -133,13 +168,13 @@
       <div>
         <div class="flex-container add-flex">
           <div class="flex-item">1</div>
-          <div class="flex-item">2</div>
+          <div class="flex-item" onclick="alertMe(2)">2</div>
           <div class="flex-item">3</div>
         </div>
 
         <div class="flex-container add-flex">
-          <div class="flex-item">4</div>
-          <div class="flex-item">5</div>
+          <div class="flex-item" onclick="logMeInPls()">4</div>
+          <div class="flex-item" onclick="alertMe(5)">5</div>
         </div>
       </div>
     </section>
