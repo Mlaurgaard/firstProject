@@ -143,3 +143,99 @@ function setTheme(){
     localStorage.setItem("themeOfPage", "dark");
 }
 // setTheme();
+
+
+
+
+// SWITCH CASE
+
+let oct = 9;
+
+switch (oct) {
+    case 0:
+        month = "January";
+        break;
+    case 1:
+        month = "February";
+        break;
+    case 2:
+        month = "March";
+        break; 
+    case 3:
+        month = "April";
+        break; 
+    case 4:
+        month = "May";
+        break; 
+    case 5:
+        month = "June";
+        break; 
+    case 6:
+        month = "July";
+        break; 
+    case 7:
+        month = "August";
+        break;
+    case 8:
+        month = "September";
+        break; 
+    case 9:
+        month = "October";
+        break; 
+    case 10:
+        month = "November";
+        break; 
+    case 11:
+        month = "Desember"; 
+        break;
+        default:
+}
+
+console.log("The month is " + month )
+
+document.getElementById("Month").innerHTML = "The month is " + month;
+
+
+// For LOOP 
+
+const peopleList = [
+    {
+        firstName: "Anders",
+        age: "27",
+        email: "Anders123@gmail.com",
+        description: "Tall, Caucasian, Wears glasses"
+    },
+    {
+        firstName: "Bjørnar",
+        age: "28",
+        email: "Bjørnis321@gmail.com",
+        description: "Short, Caucasian, Likes to wear black"
+    },
+    {
+        firstName: "Carol",
+        age: "32",
+        email: "Carry987@gmail.com",
+        description: "Avg Height, African, Likes disco"
+    },
+    {
+        firstName: "Diane",
+        age: "30",
+        email: "Dia789@gmail.com",
+        description: "Avg Height, Asian, Has many cats"
+    },
+]
+
+
+
+
+
+
+// function getMyJaneArticles() {
+//     for(let index = 0; index < phonelist.length; index++){
+//         if(phonelist[index].name == 'Jane'){
+//             console.log("Halloo!!!", phonelist[index]);
+//             myJaneBook.push(phonelist[index])
+//         }
+//     }
+//     console.log("Janes Articles", myJaneBook);
+// }
