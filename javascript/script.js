@@ -225,8 +225,13 @@ const peopleList = [
     },
 ]
 
+let phoneBook = [];
 
-
+function addOnlyNames(){
+    for(let index = 0; index < peopleList.length; index++){
+        console.log(peopleList[index].firstName);
+    }
+}
 
 
 
